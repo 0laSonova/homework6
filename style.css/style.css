@@ -29,6 +29,10 @@
     vertical-align: top;
 }
 
+.main {
+    background-color: #34547A;
+}
+
 .header .item a {
     font-family: "Roboto-Regular";
     font-weight: 400;
@@ -42,8 +46,8 @@
 
 .header a.active {
     font-family: "Roboto-Regular";
-    font-weight: 500;
-    color: blue;
+    font-weight: 600;
+    color: #34547A;
 }
 
 .header .margin ~ .item {
@@ -69,6 +73,7 @@
     line-height: 26px;
     color: #727272;
     width: 540px;
+    margin-bottom: 65px;
 }
 
 .button {
@@ -136,14 +141,14 @@
 }
 
 video {
-    margin-top: 50px;
+    padding-top: 57px;
     width: 100%;
     height: 600px;
-    padding: 0 auto;
+    margin: 0 auto;
 }
 
 .footer {
-    background: #34547A;
+    background-color: #34547A;
     margin-top: 100px;
     height: 150px;
 }
